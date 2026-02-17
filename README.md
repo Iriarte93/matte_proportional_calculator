@@ -1,15 +1,17 @@
 # Matte Proportional Calculator
 
-A Java-based tool to estimate the real-world height of distant objects using **similar triangles** and proportional measurements. Useful for photographers, matte painters, VFX artists, and anyone working with perspective scaling.
+A Java-based (Java 17) tool to estimate the real-world height of distant objects using **similar triangles** and proportional measurements.
+
+Simple but effective, I have been using this tool in several projects over the years as a Digital Matte Painter. Useful for photographers, matte painters, VFX artists, and anyone working with perspective scaling.
 
 ---
 
 ## How It Works
 
 The application calculates object height with a simple proportional formula:
-
+```bash
 H = D × (h_object / h_total
-
+```
 
 Where:
 
@@ -24,15 +26,14 @@ This method relies on **triangles similarity**: the ratio of the object to the r
 
 ## Features
 
-- Console and GUI versions included  
+- GUI version
 - Allows repeated calculations without restarting  
 - Input validation to prevent errors  
-- Optional image panel for a schematic diagram (GUI version)
 
 ---
 
 ## Installation
 
 1. Clone the repository:
-
-
+```bash
+https://github.com/Iriarte93/matte_proportional_calculator
